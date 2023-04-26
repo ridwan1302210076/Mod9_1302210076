@@ -42,6 +42,7 @@ namespace Mod9_1302210076.Controllers
             return ListMovie[id];
         }
 
+
         [HttpPost]
         public void Post([FromBody] Movie value)
         {
